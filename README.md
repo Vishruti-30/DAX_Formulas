@@ -45,3 +45,14 @@ IF(
     (CurrentYearSales - PreviousYearSales) / PreviousYearSales
 ) - Measures year-over-year revenue growth.
 ```
+## 💡 Key Insights
+- 📌 **Total Sales** and **Average Unit Price** provide immediate visibility into sales performance and pricing trends.
+- 📉 **Sales Growth %** highlights year-over-year changes, helping detect slowdowns or momentum shifts.
+- 📊 Interactive slicers (Region, Product, Salesperson, Date) enable granular analysis and custom views.
+- ❗ Negative growth periods can indicate market issues or seasonal effects, prompting further investigation.
+
+## 🚀 Future Enhancements
+- 🧠 Implement more **Time Intelligence** measures like Month-over-Month (MoM) and Quarter-over-Quarter (QoQ) growth.
+- 🔗 Integrate with **live data sources** (SQL Server, Excel) for real-time updates and automation.
+- 🪄 Add **dynamic report tooltips** and **drill-through pages** to improve interactivity.
+- 📈 Include **forecasting visuals** using Power BI's analytics features to predict future sales trends.
