@@ -27,8 +27,12 @@ To explore sales performance across products, regions, and time using DAX formul
 ```DAX
 **Total Sales** = SUM('Sales_Data'[Total Sales]) - Calculates total revenue across all records.
 
+### Average Unit Price
+```DAX
 **Average Unit Price** = AVERAGE('Sales_Data'[Unit Price]) - Returns the average selling price per unit.
 
+### Sales Growth %
+```DAX
 **Sales Growth %** = 
 VAR CurrentYearSales = CALCULATE(SUM('Sales_Data'[Total Sales]), YEAR('Sales_Data'[Date]) = YEAR(TODAY()))
 VAR PreviousYearSales = CALCULATE(SUM('Sales_Data'[Total Sales]), YEAR('Sales_Data'[Date]) = YEAR(TODAY()) - 1)
